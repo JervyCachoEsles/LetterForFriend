@@ -7,7 +7,8 @@ document.getElementById("openBtn").addEventListener("click", function () {
 
   const vid = document.getElementById("vid");
 
-  vid.play().catch(() => {
-    console.log("Autoplay with sound blocked by browser.");
+  vid.muted=true;
+  vid.play().catch((error) => {
+    console.log("Autoplay failed:",error);
   });
 });
