@@ -1,0 +1,49 @@
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: #f7d3df;
+}
+
+.letter {
+    border:2px solid black;
+    display:flex;
+    flex-direction:column;
+    border-radius:7px;
+    padding:20px;
+    line-height:1.6;
+    background-color:#fff5f8;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background:#e75480;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+@media (max-width: 768px) {
+    }
+
+@media (min-width: 769px) {
+   
+}
+
